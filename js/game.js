@@ -30,3 +30,4 @@ class Game {
     const mid = Math.floor(CONFIG.GRID_SIZE / 2);
     this.snake.reset(mid, mid, CONFIG.START_LENGTH);
     this.food.reset();
+    this.score = 0;
