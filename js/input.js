@@ -16,3 +16,4 @@ class InputHandler {
       ArrowRight: DIRECTIONS.RIGHT,
       w: DIRECTIONS.UP,
       s: DIRECTIONS.DOWN,
+      a: DIRECTIONS.LEFT,
