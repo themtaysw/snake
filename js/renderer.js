@@ -76,3 +76,4 @@ class Renderer {
     ];
     ctx.fillStyle = CONFIG.COLORS.eyes;
     eyes.forEach((eye) => {
+      ctx.beginPath();
