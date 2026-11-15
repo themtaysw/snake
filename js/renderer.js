@@ -132,3 +132,4 @@ class Renderer {
     this.particles.forEach((p) => {
       p.x += p.vx;
       p.y += p.vy;
+      p.vx *= 0.94;
