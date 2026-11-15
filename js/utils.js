@@ -45,3 +45,4 @@ const Utils = {
     const b = Utils.hexToRgb(hexB);
     const red = Math.round(Utils.lerp(a.r, b.r, t));
     const green = Math.round(Utils.lerp(a.g, b.g, t));
+    const blue = Math.round(Utils.lerp(a.b, b.b, t));
