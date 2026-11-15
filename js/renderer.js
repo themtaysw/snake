@@ -54,3 +54,4 @@ class Renderer {
   drawSnake(snake) {
     const { body } = snake;
     for (let i = body.length - 1; i >= 0; i--) {
+      const t = body.length > 1 ? i / (body.length - 1) : 0;
