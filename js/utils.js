@@ -43,3 +43,4 @@ const Utils = {
   mixColors(hexA, hexB, t) {
     const a = Utils.hexToRgb(hexA);
     const b = Utils.hexToRgb(hexB);
+    const red = Math.round(Utils.lerp(a.r, b.r, t));
