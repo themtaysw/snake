@@ -17,3 +17,4 @@ class UI {
   }
 
   update(data) {
+    this.score.textContent = Utils.formatScore(data.score);
