@@ -57,3 +57,4 @@ class AudioManager {
   }
 
   levelUp() {
+    this.melody([392, 523, 659], 90, 0.12, 'square');
