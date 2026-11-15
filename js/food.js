@@ -33,3 +33,4 @@ class FoodManager {
       lifetime: type === FOOD_TYPES.NORMAL ? Infinity : CONFIG.SPECIAL_LIFETIME,
     };
     this.items.push(item);
+    return item;
