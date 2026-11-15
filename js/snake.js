@@ -52,3 +52,4 @@ class Snake {
     if (this.growth > 0) {
       this.growth--;
     } else {
+      this.body.pop();
