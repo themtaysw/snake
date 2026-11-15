@@ -28,3 +28,4 @@ class Snake {
       ? this.queue[this.queue.length - 1]
       : this.direction;
     if (Utils.samePosition(last, newDirection)) return;
+    if (Utils.isOpposite(last, newDirection)) return;
