@@ -7,3 +7,4 @@ class AudioManager {
 
   ensureContext() {
     if (!this.context) {
+      const AudioCtx = window.AudioContext || window.webkitAudioContext;
