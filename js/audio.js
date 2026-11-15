@@ -43,3 +43,5 @@ class AudioManager {
       setTimeout(() => this.tone(frequency, duration, type, volume), index * gap);
     });
   }
+
+  eat() {
