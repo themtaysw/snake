@@ -44,3 +44,4 @@ class InputHandler {
   bindTouch() {
     const board = document.getElementById('board');
     board.addEventListener('touchstart', (event) => {
+      const touch = event.changedTouches[0];
