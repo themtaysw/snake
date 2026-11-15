@@ -32,3 +32,4 @@ class Game {
     this.food.reset();
     this.score = 0;
     this.level = 1;
+    this.eaten = 0;
