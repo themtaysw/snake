@@ -108,3 +108,4 @@ class Renderer {
   }
 
   burst(cell, color) {
+    const c = CONFIG.CELL_SIZE;
