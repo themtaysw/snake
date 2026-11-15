@@ -16,3 +16,4 @@ class Game {
     this.save = SaveData.load();
     this.audio.muted = this.save.muted;
     this.wrapWalls = this.save.wrapWalls;
+    this.obstacles = [];
