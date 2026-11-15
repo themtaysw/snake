@@ -5,3 +5,4 @@ class UI {
     this.highScore = document.getElementById('high-score');
     this.level = document.getElementById('level');
     this.length = document.getElementById('length');
+    this.overlay = document.getElementById('overlay');
