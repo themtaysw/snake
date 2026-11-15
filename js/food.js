@@ -71,3 +71,5 @@ class FoodManager {
       item.createdAt += delta;
     });
   }
+
+  remainingLife(item, now) {
