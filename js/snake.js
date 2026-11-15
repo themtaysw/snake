@@ -11,3 +11,4 @@ class Snake {
     }
     this.direction = DIRECTIONS.RIGHT;
     this.queue = [];
+    this.growth = 0;
