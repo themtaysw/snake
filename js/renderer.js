@@ -126,3 +126,5 @@ class Renderer {
   addShake(amount) {
     this.shake = Math.max(this.shake, amount);
   }
+
+  drawParticles() {
