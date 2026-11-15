@@ -49,3 +49,4 @@ class Renderer {
     obstacles.forEach((cell) => {
       this.roundedCell(cell.x, cell.y, 1, 4, CONFIG.COLORS.obstacle);
     });
+  }
