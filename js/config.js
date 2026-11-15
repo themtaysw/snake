@@ -25,3 +25,4 @@ const CONFIG = {
     eyes: '#0f1420',
     food: '#ff5d73',
     bonus: '#ffd166',
+    slow: '#6ec6ff',
