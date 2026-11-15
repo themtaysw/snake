@@ -93,3 +93,4 @@ class Renderer {
     const c = CONFIG.CELL_SIZE;
     food.items.forEach((item) => {
       const life = food.remainingLife(item, now);
+      const blinking = life < 0.3 && Math.floor(now / 120) % 2 === 0;
