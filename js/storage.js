@@ -22,3 +22,4 @@ const SaveData = {
   },
 
   save(data) {
+    try {
