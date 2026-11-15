@@ -36,3 +36,4 @@ class AudioManager {
     gain.connect(ctx.destination);
     oscillator.start();
     oscillator.stop(ctx.currentTime + duration);
+  }
