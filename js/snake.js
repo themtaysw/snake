@@ -59,3 +59,5 @@ class Snake {
   grow(amount = 1) {
     this.growth += amount;
   }
+
+  occupies(cell) {
