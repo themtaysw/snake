@@ -14,3 +14,4 @@ class Game {
     this.snake = new Snake(0, 0, CONFIG.START_LENGTH);
     this.food = new FoodManager(CONFIG.GRID_SIZE);
     this.save = SaveData.load();
+    this.audio.muted = this.save.muted;
