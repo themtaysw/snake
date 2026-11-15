@@ -6,3 +6,4 @@ const SaveData = {
     return {
       highScore: 0,
       bestLevel: 1,
+      muted: false,
