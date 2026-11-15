@@ -12,3 +12,4 @@ class FoodManager {
   }
 
   reset() {
+    this.items = [];
