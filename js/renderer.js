@@ -89,3 +89,4 @@ class Renderer {
   }
 
   drawFood(food, now) {
+    const { ctx } = this;
