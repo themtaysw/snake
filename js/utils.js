@@ -5,3 +5,4 @@ const Utils = {
   },
 
   randomCell(gridSize) {
+    return {
