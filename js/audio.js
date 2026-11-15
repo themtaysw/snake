@@ -31,3 +31,4 @@ class AudioManager {
     oscillator.type = type;
     oscillator.frequency.setValueAtTime(frequency, ctx.currentTime);
     gain.gain.setValueAtTime(volume, ctx.currentTime);
+    gain.gain.exponentialRampToValueAtTime(0.0001, ctx.currentTime + duration);
