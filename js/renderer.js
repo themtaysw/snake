@@ -119,3 +119,4 @@ class Renderer {
         vy: Math.sin(angle) * speed,
         life: 1,
         color,
+      });
