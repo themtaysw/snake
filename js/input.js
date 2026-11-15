@@ -59,3 +59,4 @@ class InputHandler {
         this.game.handleDirection(dx > 0 ? DIRECTIONS.RIGHT : DIRECTIONS.LEFT);
       } else {
         this.game.handleDirection(dy > 0 ? DIRECTIONS.DOWN : DIRECTIONS.UP);
+      }
