@@ -27,3 +27,4 @@ class FoodManager {
     const cell = this.findFreeCell(isBlocked);
     if (!cell) return null;
     const item = {
+      ...cell,
