@@ -113,3 +113,4 @@ class Renderer {
       const angle = (Math.PI * 2 * i) / CONFIG.PARTICLE_COUNT;
       const speed = 1 + Math.random() * 2.5;
       this.particles.push({
+        x: cell.x * c + c / 2,
