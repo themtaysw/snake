@@ -74,3 +74,4 @@ class FoodManager {
 
   remainingLife(item, now) {
     if (item.lifetime === Infinity) return 1;
+    return Utils.clamp(1 - (now - item.createdAt) / item.lifetime, 0, 1);
