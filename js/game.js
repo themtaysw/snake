@@ -43,3 +43,4 @@ class Game {
   }
 
   buildObstacles(level) {
+    const n = CONFIG.GRID_SIZE;
