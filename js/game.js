@@ -2,3 +2,4 @@
 const STATES = {
   READY: 'ready',
   PLAYING: 'playing',
+  PAUSED: 'paused',
