@@ -42,3 +42,4 @@ class InputHandler {
   }
 
   bindTouch() {
+    const board = document.getElementById('board');
