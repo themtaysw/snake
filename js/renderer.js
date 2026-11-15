@@ -66,3 +66,4 @@ class Renderer {
   drawEyes(snake) {
     const { ctx } = this;
     const { head, direction } = snake;
+    const c = CONFIG.CELL_SIZE;
