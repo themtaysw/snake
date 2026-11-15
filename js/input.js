@@ -10,3 +10,4 @@ class InputHandler {
 
   bindKeyboard() {
     const keyMap = {
+      ArrowUp: DIRECTIONS.UP,
