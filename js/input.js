@@ -43,3 +43,4 @@ class InputHandler {
 
   bindTouch() {
     const board = document.getElementById('board');
+    board.addEventListener('touchstart', (event) => {
