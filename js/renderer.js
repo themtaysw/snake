@@ -72,3 +72,4 @@ class Renderer {
     const side = c * 0.2;
     const eyes = [
       { x: cx - direction.y * side, y: cy + direction.x * side },
+      { x: cx + direction.y * side, y: cy - direction.x * side },
