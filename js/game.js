@@ -8,3 +8,4 @@ const STATES = {
 
 class Game {
   constructor(canvas, ui) {
+    this.ui = ui;
