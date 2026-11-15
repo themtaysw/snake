@@ -27,3 +27,4 @@ class AudioManager {
     const ctx = this.ensureContext();
     if (!ctx) return;
     const oscillator = ctx.createOscillator();
+    const gain = ctx.createGain();
