@@ -20,3 +20,5 @@ const SaveData = {
       return SaveData.defaults();
     }
   },
+
+  save(data) {
