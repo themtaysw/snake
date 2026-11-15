@@ -28,3 +28,5 @@ const SaveData = {
       // Storage might be full or disabled, the game still works
     }
   },
+
+  update(changes) {
