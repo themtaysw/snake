@@ -13,3 +13,4 @@ class Renderer {
     const ratio = window.devicePixelRatio || 1;
     this.canvas.width = size * ratio;
     this.canvas.height = size * ratio;
+    this.ctx.setTransform(ratio, 0, 0, ratio, 0, 0);
