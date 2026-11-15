@@ -47,3 +47,4 @@ const Utils = {
     const green = Math.round(Utils.lerp(a.g, b.g, t));
     const blue = Math.round(Utils.lerp(a.b, b.b, t));
     return `rgb(${red}, ${green}, ${blue})`;
+  },
