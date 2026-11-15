@@ -34,3 +34,4 @@ class Game {
     this.level = 1;
     this.eaten = 0;
     this.speed = CONFIG.START_SPEED;
+    this.slowUntil = 0;
