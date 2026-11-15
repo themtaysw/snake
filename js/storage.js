@@ -4,3 +4,4 @@ const SaveData = {
 
   defaults() {
     return {
+      highScore: 0,
