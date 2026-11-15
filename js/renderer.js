@@ -62,3 +62,5 @@ class Renderer {
     }
     this.drawEyes(snake);
   }
+
+  drawEyes(snake) {
