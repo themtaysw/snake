@@ -6,3 +6,4 @@ const CONFIG = {
   START_SPEED: 8,
   MAX_SPEED: 22,
   SPEED_STEP: 0.5,
+  FOOD_SCORE: 10,
