@@ -80,3 +80,4 @@ class Renderer {
       ctx.arc(eye.x, eye.y, c * 0.1, 0, Math.PI * 2);
       ctx.fill();
     });
+  }
