@@ -51,3 +51,4 @@ class FoodManager {
   }
 
   at(cell) {
+    return this.items.find((item) => Utils.samePosition(item, cell)) || null;
