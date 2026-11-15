@@ -15,3 +15,5 @@ class UI {
     this.toast = document.getElementById('toast');
     this.toastTimer = null;
   }
+
+  update(data) {
