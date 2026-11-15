@@ -128,3 +128,4 @@ class Renderer {
   }
 
   drawParticles() {
+    const { ctx } = this;
