@@ -32,3 +32,5 @@ class UI {
     this.startButton.textContent = buttonLabel;
     this.overlay.classList.remove('hidden');
   }
+
+  hideOverlay() {
