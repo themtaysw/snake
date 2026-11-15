@@ -10,3 +10,4 @@ class UI {
     this.overlayText = document.getElementById('overlay-text');
     this.startButton = document.getElementById('start-btn');
     this.pauseButton = document.getElementById('pause-btn');
+    this.muteButton = document.getElementById('mute-btn');
