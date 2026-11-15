@@ -43,3 +43,4 @@ class UI {
     clearTimeout(this.toastTimer);
     this.toastTimer = setTimeout(() => {
       this.toast.classList.remove('visible');
+    }, 1200);
