@@ -60,3 +60,4 @@ class InputHandler {
       } else {
         this.game.handleDirection(dy > 0 ? DIRECTIONS.DOWN : DIRECTIONS.UP);
       }
+    }, { passive: true });
