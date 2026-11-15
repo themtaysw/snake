@@ -24,3 +24,4 @@ class Snake {
   }
 
   turn(newDirection) {
+    const last = this.queue.length
