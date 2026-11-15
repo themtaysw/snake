@@ -51,3 +51,4 @@ class InputHandler {
       if (!this.touchStart) return;
       const touch = event.changedTouches[0];
       const dx = touch.clientX - this.touchStart.x;
+      const dy = touch.clientY - this.touchStart.y;
