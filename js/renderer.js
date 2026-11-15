@@ -165,3 +165,4 @@ class Renderer {
     this.drawSnake(state.snake);
     this.drawParticles();
     this.drawSlowOverlay(state.slowActive);
+    ctx.restore();
