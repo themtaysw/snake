@@ -10,3 +10,4 @@ class Game {
   constructor(canvas, ui) {
     this.ui = ui;
     this.renderer = new Renderer(canvas);
+    this.audio = new AudioManager();
