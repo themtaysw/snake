@@ -5,3 +5,4 @@ const CONFIG = {
   START_LENGTH: 4,
   START_SPEED: 8,
   MAX_SPEED: 22,
+  SPEED_STEP: 0.5,
