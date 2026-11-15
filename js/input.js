@@ -57,3 +57,4 @@ class InputHandler {
         this.game.togglePause();
       } else if (Math.abs(dx) > Math.abs(dy)) {
         this.game.handleDirection(dx > 0 ? DIRECTIONS.RIGHT : DIRECTIONS.LEFT);
+      } else {
