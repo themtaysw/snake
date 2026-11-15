@@ -105,3 +105,4 @@ class Renderer {
       ctx.fill();
       ctx.shadowBlur = 0;
     });
+  }
