@@ -122,3 +122,5 @@ class Renderer {
       });
     }
   }
+
+  addShake(amount) {
