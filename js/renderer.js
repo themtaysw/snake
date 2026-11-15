@@ -67,3 +67,4 @@ class Renderer {
     const { ctx } = this;
     const { head, direction } = snake;
     const c = CONFIG.CELL_SIZE;
+    const cx = head.x * c + c / 2 + direction.x * c * 0.18;
