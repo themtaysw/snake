@@ -10,3 +10,5 @@ class FoodManager {
     this.gridSize = gridSize;
     this.items = [];
   }
+
+  reset() {
