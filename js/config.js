@@ -15,3 +15,4 @@ const CONFIG = {
   SLOW_FACTOR: 0.5,
   FOODS_PER_LEVEL: 5,
   WRAP_WALLS: false,
+  PARTICLE_COUNT: 14,
