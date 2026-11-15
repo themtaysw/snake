@@ -42,3 +42,4 @@ class Snake {
     let y = this.head.y + this.direction.y;
     if (wrap) {
       x = (x + gridSize) % gridSize;
+      y = (y + gridSize) % gridSize;
