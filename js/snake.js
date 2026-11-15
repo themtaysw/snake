@@ -38,3 +38,4 @@ class Snake {
     if (this.queue.length) {
       this.direction = this.queue.shift();
     }
+    let x = this.head.x + this.direction.x;
