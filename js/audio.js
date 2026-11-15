@@ -21,3 +21,5 @@ class AudioManager {
     this.muted = !this.muted;
     return this.muted;
   }
+
+  tone(frequency, duration, type = 'square', volume = 0.08) {
