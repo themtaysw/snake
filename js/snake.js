@@ -5,3 +5,4 @@ class Snake {
   }
 
   reset(startX, startY, length) {
+    this.body = [];
