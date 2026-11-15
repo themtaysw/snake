@@ -41,3 +41,4 @@ class Renderer {
     const py = y * CONFIG.CELL_SIZE + inset;
     ctx.fillStyle = color;
     ctx.beginPath();
+    ctx.roundRect(px, py, size, size, radius);
