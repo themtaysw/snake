@@ -29,3 +29,5 @@ const CONFIG = {
     obstacle: '#4a5470',
   },
 };
+
+const DIRECTIONS = {
