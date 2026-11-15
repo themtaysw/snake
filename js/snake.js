@@ -72,3 +72,5 @@ class Snake {
     }
     return false;
   }
+
+  isOutside(cell, gridSize) {
