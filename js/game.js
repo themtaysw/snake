@@ -15,3 +15,4 @@ class Game {
     this.food = new FoodManager(CONFIG.GRID_SIZE);
     this.save = SaveData.load();
     this.audio.muted = this.save.muted;
+    this.wrapWalls = this.save.wrapWalls;
