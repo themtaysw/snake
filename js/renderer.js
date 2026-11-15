@@ -92,3 +92,4 @@ class Renderer {
     const { ctx } = this;
     const c = CONFIG.CELL_SIZE;
     food.items.forEach((item) => {
+      const life = food.remainingLife(item, now);
