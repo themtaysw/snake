@@ -28,3 +28,4 @@ class AudioManager {
     if (!ctx) return;
     const oscillator = ctx.createOscillator();
     const gain = ctx.createGain();
+    oscillator.type = type;
