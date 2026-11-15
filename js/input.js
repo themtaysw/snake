@@ -20,3 +20,4 @@ class InputHandler {
       d: DIRECTIONS.RIGHT,
     };
     window.addEventListener('keydown', (event) => {
+      if (event.repeat && !keyMap[event.key]) return;
