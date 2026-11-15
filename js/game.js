@@ -18,3 +18,4 @@ class Game {
     this.wrapWalls = this.save.wrapWalls;
     this.obstacles = [];
     this.lastTime = 0;
+    this.accumulator = 0;
