@@ -38,3 +38,4 @@ class Game {
     this.obstacles = this.buildObstacles(this.level);
     this.food.ensureNormal(this.isBlocked);
     this.state = STATES.READY;
+    this.updateUI();
