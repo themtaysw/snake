@@ -3,3 +3,5 @@ class Snake {
   constructor(startX, startY, length) {
     this.reset(startX, startY, length);
   }
+
+  reset(startX, startY, length) {
