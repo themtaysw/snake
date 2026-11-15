@@ -22,3 +22,5 @@ class FoodManager {
     }
     return null;
   }
+
+  spawn(type, isBlocked) {
