@@ -4,3 +4,4 @@ const CONFIG = {
   CELL_SIZE: 24,
   START_LENGTH: 4,
   START_SPEED: 8,
+  MAX_SPEED: 22,
