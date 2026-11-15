@@ -39,3 +39,4 @@ class InputHandler {
         this.game.toggleWrap();
       }
     });
+  }
