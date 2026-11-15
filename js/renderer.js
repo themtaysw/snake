@@ -117,3 +117,4 @@ class Renderer {
         y: cell.y * c + c / 2,
         vx: Math.cos(angle) * speed,
         vy: Math.sin(angle) * speed,
+        life: 1,
