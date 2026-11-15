@@ -166,3 +166,4 @@ class Renderer {
     this.drawParticles();
     this.drawSlowOverlay(state.slowActive);
     ctx.restore();
+  }
