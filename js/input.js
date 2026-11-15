@@ -53,3 +53,4 @@ class InputHandler {
       const dx = touch.clientX - this.touchStart.x;
       const dy = touch.clientY - this.touchStart.y;
       this.touchStart = null;
+      if (Math.max(Math.abs(dx), Math.abs(dy)) < 24) {
