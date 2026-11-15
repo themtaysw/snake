@@ -5,3 +5,4 @@ const SaveData = {
   defaults() {
     return {
       highScore: 0,
+      bestLevel: 1,
