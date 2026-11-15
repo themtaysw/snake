@@ -36,3 +36,5 @@ const DIRECTIONS = {
   LEFT: { x: -1, y: 0 },
   RIGHT: { x: 1, y: 0 },
 };
+
+Object.freeze(CONFIG);
