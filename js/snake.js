@@ -1,0 +1,1 @@
+// The snake: a list of grid cells with the head at index 0
