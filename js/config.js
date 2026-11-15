@@ -19,3 +19,4 @@ const CONFIG = {
   COLORS: {
     background: '#0f1420',
     grid: '#161d2d',
+    snakeHead: '#7cf29a',
