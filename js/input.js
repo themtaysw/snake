@@ -38,3 +38,4 @@ class InputHandler {
       } else if (key === 'g') {
         this.game.toggleWrap();
       }
+    });
