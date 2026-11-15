@@ -94,3 +94,4 @@ class Renderer {
     food.items.forEach((item) => {
       const life = food.remainingLife(item, now);
       const blinking = life < 0.3 && Math.floor(now / 120) % 2 === 0;
+      if (blinking) return;
