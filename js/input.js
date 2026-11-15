@@ -5,3 +5,4 @@ class InputHandler {
     this.touchStart = null;
     this.bindKeyboard();
     this.bindTouch();
+    this.bindButtons();
