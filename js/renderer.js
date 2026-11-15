@@ -120,3 +120,4 @@ class Renderer {
         life: 1,
         color,
       });
+    }
