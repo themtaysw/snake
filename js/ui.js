@@ -41,3 +41,4 @@ class UI {
     this.toast.textContent = message;
     this.toast.classList.add('visible');
     clearTimeout(this.toastTimer);
+    this.toastTimer = setTimeout(() => {
