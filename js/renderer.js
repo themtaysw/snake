@@ -36,3 +36,4 @@ class Renderer {
 
   roundedCell(x, y, inset, radius, color) {
     const { ctx } = this;
+    const size = CONFIG.CELL_SIZE - inset * 2;
