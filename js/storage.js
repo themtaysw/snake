@@ -13,3 +13,4 @@ const SaveData = {
 
   load() {
     try {
+      const raw = localStorage.getItem(SaveData.KEY);
