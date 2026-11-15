@@ -12,3 +12,4 @@ class AudioManager {
       this.context = new AudioCtx();
     }
     if (this.context.state === 'suspended') {
+      this.context.resume();
