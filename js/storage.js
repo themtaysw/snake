@@ -23,3 +23,4 @@ const SaveData = {
 
   save(data) {
     try {
+      localStorage.setItem(SaveData.KEY, JSON.stringify(data));
