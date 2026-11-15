@@ -57,3 +57,4 @@ class Renderer {
       const t = body.length > 1 ? i / (body.length - 1) : 0;
       const color = i === 0
         ? CONFIG.COLORS.snakeHead
+        : Utils.mixColors(CONFIG.COLORS.snakeBody, CONFIG.COLORS.snakeTail, t);
