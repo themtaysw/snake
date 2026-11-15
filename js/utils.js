@@ -33,3 +33,4 @@ const Utils = {
 
   hexToRgb(hex) {
     const value = parseInt(hex.slice(1), 16);
+    return {
