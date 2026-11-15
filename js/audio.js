@@ -37,3 +37,5 @@ class AudioManager {
     oscillator.start();
     oscillator.stop(ctx.currentTime + duration);
   }
+
+  melody(notes, gap, duration, type, volume) {
