@@ -139,3 +139,4 @@ class Renderer {
       ctx.fillStyle = p.color;
       ctx.fillRect(p.x - 2, p.y - 2, 4, 4);
     });
+    ctx.globalAlpha = 1;
