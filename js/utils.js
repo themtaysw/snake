@@ -48,3 +48,5 @@ const Utils = {
     const blue = Math.round(Utils.lerp(a.b, b.b, t));
     return `rgb(${red}, ${green}, ${blue})`;
   },
+
+  formatScore(score) {
