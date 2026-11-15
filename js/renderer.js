@@ -59,3 +59,4 @@ class Renderer {
         ? CONFIG.COLORS.snakeHead
         : Utils.mixColors(CONFIG.COLORS.snakeBody, CONFIG.COLORS.snakeTail, t);
       this.roundedCell(body[i].x, body[i].y, i === 0 ? 1 : 2, 6, color);
+    }
