@@ -18,3 +18,4 @@ const SaveData = {
       return { ...SaveData.defaults(), ...data };
     } catch (error) {
       return SaveData.defaults();
+    }
