@@ -71,3 +71,4 @@ class InputHandler {
       });
     });
     const actions = {
+      'start-btn': () => this.game.primaryAction(),
