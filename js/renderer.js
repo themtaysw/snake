@@ -106,3 +106,5 @@ class Renderer {
       ctx.shadowBlur = 0;
     });
   }
+
+  burst(cell, color) {
