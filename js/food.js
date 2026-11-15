@@ -70,3 +70,4 @@ class FoodManager {
     this.items.forEach((item) => {
       item.createdAt += delta;
     });
+  }
