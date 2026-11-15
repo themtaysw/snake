@@ -162,3 +162,4 @@ class Renderer {
     this.clear();
     this.drawObstacles(state.obstacles);
     this.drawFood(state.food, now);
+    this.drawSnake(state.snake);
