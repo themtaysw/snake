@@ -109,3 +109,4 @@ class Renderer {
 
   burst(cell, color) {
     const c = CONFIG.CELL_SIZE;
+    for (let i = 0; i < CONFIG.PARTICLE_COUNT; i++) {
