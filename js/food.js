@@ -31,3 +31,4 @@ class FoodManager {
       type,
       createdAt: performance.now(),
       lifetime: type === FOOD_TYPES.NORMAL ? Infinity : CONFIG.SPECIAL_LIFETIME,
+    };
