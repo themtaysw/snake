@@ -23,3 +23,4 @@ class Renderer {
     ctx.fillRect(0, 0, this.size, this.size);
     ctx.strokeStyle = CONFIG.COLORS.grid;
     ctx.lineWidth = 1;
+    ctx.beginPath();
