@@ -48,3 +48,4 @@ class Snake {
   }
 
   move(newHead) {
+    this.body.unshift(newHead);
