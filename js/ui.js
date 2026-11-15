@@ -12,3 +12,4 @@ class UI {
     this.pauseButton = document.getElementById('pause-btn');
     this.muteButton = document.getElementById('mute-btn');
     this.wrapButton = document.getElementById('wrap-btn');
+    this.toast = document.getElementById('toast');
