@@ -55,3 +55,5 @@ class Snake {
       this.body.pop();
     }
   }
+
+  grow(amount = 1) {
