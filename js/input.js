@@ -23,3 +23,4 @@ class InputHandler {
       if (event.repeat && !keyMap[event.key]) return;
       const key = event.key.length === 1 ? event.key.toLowerCase() : event.key;
       if (keyMap[key]) {
+        event.preventDefault();
