@@ -23,3 +23,4 @@ class Game {
     this.isBlocked = (cell) => this.snake.occupies(cell) || this.isObstacle(cell);
     this.loop = this.loop.bind(this);
     this.reset();
+    requestAnimationFrame(this.loop);
