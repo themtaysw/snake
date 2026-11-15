@@ -70,3 +70,4 @@ class Snake {
     for (let i = 0; i < limit; i++) {
       if (Utils.samePosition(this.body[i], newHead)) return true;
     }
+    return false;
