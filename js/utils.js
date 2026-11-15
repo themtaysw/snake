@@ -9,3 +9,4 @@ const Utils = {
       x: Utils.randomInt(0, gridSize - 1),
       y: Utils.randomInt(0, gridSize - 1),
     };
+  },
