@@ -38,3 +38,4 @@ const Utils = {
       g: (value >> 8) & 255,
       b: value & 255,
     };
+  },
