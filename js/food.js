@@ -64,3 +64,4 @@ class FoodManager {
 
   update(now) {
     this.items = this.items.filter((item) => now - item.createdAt < item.lifetime);
+  }
