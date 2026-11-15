@@ -4,3 +4,5 @@ class AudioManager {
     this.context = null;
     this.muted = false;
   }
+
+  ensureContext() {
