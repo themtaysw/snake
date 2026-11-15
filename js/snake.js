@@ -44,3 +44,4 @@ class Snake {
       x = (x + gridSize) % gridSize;
       y = (y + gridSize) % gridSize;
     }
+    return { x, y };
