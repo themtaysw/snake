@@ -50,3 +50,4 @@ class InputHandler {
     board.addEventListener('touchend', (event) => {
       if (!this.touchStart) return;
       const touch = event.changedTouches[0];
+      const dx = touch.clientX - this.touchStart.x;
