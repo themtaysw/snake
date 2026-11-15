@@ -32,3 +32,4 @@ class Snake {
     if (this.queue.length < 3) {
       this.queue.push(newDirection);
     }
+  }
