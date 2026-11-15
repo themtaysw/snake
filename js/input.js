@@ -3,3 +3,4 @@ class InputHandler {
   constructor(game) {
     this.game = game;
     this.touchStart = null;
+    this.bindKeyboard();
