@@ -64,3 +64,4 @@ class InputHandler {
   }
 
   bindButtons() {
+    document.querySelectorAll('[data-dir]').forEach((button) => {
