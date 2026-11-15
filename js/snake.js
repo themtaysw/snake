@@ -9,3 +9,4 @@ class Snake {
     for (let i = 0; i < length; i++) {
       this.body.push({ x: startX - i, y: startY });
     }
+    this.direction = DIRECTIONS.RIGHT;
