@@ -5,3 +5,5 @@ const STATES = {
   PAUSED: 'paused',
   OVER: 'over',
 };
+
+class Game {
