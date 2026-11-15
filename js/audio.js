@@ -50,3 +50,4 @@ class AudioManager {
 
   bonus() {
     this.melody([523, 659, 784, 1046], 70, 0.1, 'triangle');
+  }
