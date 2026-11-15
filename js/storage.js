@@ -25,3 +25,4 @@ const SaveData = {
     try {
       localStorage.setItem(SaveData.KEY, JSON.stringify(data));
     } catch (error) {
+      // Storage might be full or disabled, the game still works
