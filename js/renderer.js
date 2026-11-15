@@ -154,3 +154,4 @@ class Renderer {
     ctx.clearRect(0, 0, this.size, this.size);
     ctx.save();
     if (this.shake > 0.1) {
+      const dx = (Math.random() - 0.5) * this.shake;
