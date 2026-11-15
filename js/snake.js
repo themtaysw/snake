@@ -20,3 +20,4 @@ class Snake {
   }
 
   get length() {
+    return this.body.length;
