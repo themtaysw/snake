@@ -6,3 +6,4 @@ class UI {
     this.level = document.getElementById('level');
     this.length = document.getElementById('length');
     this.overlay = document.getElementById('overlay');
+    this.overlayTitle = document.getElementById('overlay-title');
