@@ -27,3 +27,4 @@ class UI {
   }
 
   showOverlay(title, text, buttonLabel) {
+    this.overlayTitle.textContent = title;
