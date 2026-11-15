@@ -19,3 +19,4 @@ class Game {
     this.obstacles = [];
     this.lastTime = 0;
     this.accumulator = 0;
+    this.pausedAt = 0;
