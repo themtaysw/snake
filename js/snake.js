@@ -36,3 +36,4 @@ class Snake {
 
   nextHead(gridSize, wrap) {
     if (this.queue.length) {
+      this.direction = this.queue.shift();
