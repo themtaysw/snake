@@ -13,3 +13,4 @@ class Snake {
     this.queue = [];
     this.growth = 0;
     this.alive = true;
+  }
