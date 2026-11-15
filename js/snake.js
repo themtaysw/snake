@@ -54,3 +54,4 @@ class Snake {
     } else {
       this.body.pop();
     }
+  }
