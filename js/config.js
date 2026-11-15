@@ -7,3 +7,4 @@ const CONFIG = {
   MAX_SPEED: 22,
   SPEED_STEP: 0.5,
   FOOD_SCORE: 10,
+  BONUS_SCORE: 50,
