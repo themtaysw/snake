@@ -34,3 +34,4 @@ const SaveData = {
     SaveData.save(next);
     return next;
   },
+};
