@@ -6,3 +6,4 @@ class InputHandler {
     this.bindKeyboard();
     this.bindTouch();
     this.bindButtons();
+  }
