@@ -38,3 +38,4 @@ class UI {
   }
 
   flash(message) {
+    this.toast.textContent = message;
