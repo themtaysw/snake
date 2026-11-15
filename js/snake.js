@@ -43,3 +43,4 @@ class Snake {
     if (wrap) {
       x = (x + gridSize) % gridSize;
       y = (y + gridSize) % gridSize;
+    }
