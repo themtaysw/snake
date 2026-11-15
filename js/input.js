@@ -24,3 +24,4 @@ class InputHandler {
       const key = event.key.length === 1 ? event.key.toLowerCase() : event.key;
       if (keyMap[key]) {
         event.preventDefault();
+        this.game.handleDirection(keyMap[key]);
