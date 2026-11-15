@@ -153,3 +153,4 @@ class Renderer {
     const { ctx } = this;
     ctx.clearRect(0, 0, this.size, this.size);
     ctx.save();
+    if (this.shake > 0.1) {
