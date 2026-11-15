@@ -14,3 +14,5 @@ const Utils = {
   samePosition(a, b) {
     return a.x === b.x && a.y === b.y;
   },
+
+  isOpposite(a, b) {
