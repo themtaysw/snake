@@ -160,3 +160,4 @@ class Renderer {
       this.shake *= 0.9;
     }
     this.clear();
+    this.drawObstacles(state.obstacles);
