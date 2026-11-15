@@ -10,3 +10,5 @@ const SaveData = {
       wrapWalls: CONFIG.WRAP_WALLS,
     };
   },
+
+  load() {
