@@ -16,3 +16,5 @@ class AudioManager {
     }
     return this.context;
   }
+
+  toggleMute() {
