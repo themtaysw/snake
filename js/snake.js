@@ -39,3 +39,4 @@ class Snake {
       this.direction = this.queue.shift();
     }
     let x = this.head.x + this.direction.x;
+    let y = this.head.y + this.direction.y;
