@@ -25,3 +25,4 @@ class InputHandler {
       if (keyMap[key]) {
         event.preventDefault();
         this.game.handleDirection(keyMap[key]);
+      } else if (key === ' ' || key === 'p' || key === 'Escape') {
