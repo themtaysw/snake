@@ -87,3 +87,5 @@ class Renderer {
     if (type === FOOD_TYPES.SLOW) return CONFIG.COLORS.slow;
     return CONFIG.COLORS.food;
   }
+
+  drawFood(food, now) {
