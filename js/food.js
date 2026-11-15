@@ -49,3 +49,5 @@ class FoodManager {
       this.spawn(FOOD_TYPES.BONUS, isBlocked);
     }
   }
+
+  at(cell) {
