@@ -81,3 +81,4 @@ class InputHandler {
         // Drop focus so Space / Enter do not trigger the button again
         event.currentTarget.blur();
         action();
+      });
