@@ -140,3 +140,4 @@ class Renderer {
       ctx.fillRect(p.x - 2, p.y - 2, 4, 4);
     });
     ctx.globalAlpha = 1;
+    this.particles = this.particles.filter((p) => p.life > 0);
