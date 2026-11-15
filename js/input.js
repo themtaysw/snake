@@ -12,3 +12,4 @@ class InputHandler {
     const keyMap = {
       ArrowUp: DIRECTIONS.UP,
       ArrowDown: DIRECTIONS.DOWN,
+      ArrowLeft: DIRECTIONS.LEFT,
