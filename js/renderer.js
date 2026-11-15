@@ -24,3 +24,4 @@ class Renderer {
     ctx.strokeStyle = CONFIG.COLORS.grid;
     ctx.lineWidth = 1;
     ctx.beginPath();
+    for (let i = 1; i < CONFIG.GRID_SIZE; i++) {
