@@ -9,3 +9,4 @@ const SaveData = {
       muted: false,
       wrapWalls: CONFIG.WRAP_WALLS,
     };
+  },
