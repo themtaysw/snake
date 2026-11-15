@@ -45,3 +45,4 @@ class UI {
       this.toast.classList.remove('visible');
     }, 1200);
   }
+}
