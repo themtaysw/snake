@@ -16,3 +16,5 @@ class Renderer {
     this.ctx.setTransform(ratio, 0, 0, ratio, 0, 0);
     this.size = size;
   }
+
+  clear() {
