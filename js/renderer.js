@@ -56,3 +56,4 @@ class Renderer {
     for (let i = body.length - 1; i >= 0; i--) {
       const t = body.length > 1 ? i / (body.length - 1) : 0;
       const color = i === 0
+        ? CONFIG.COLORS.snakeHead
