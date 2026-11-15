@@ -20,3 +20,4 @@ class Renderer {
   clear() {
     const { ctx } = this;
     ctx.fillStyle = CONFIG.COLORS.background;
+    ctx.fillRect(0, 0, this.size, this.size);
