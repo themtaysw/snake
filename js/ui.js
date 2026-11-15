@@ -14,3 +14,4 @@ class UI {
     this.wrapButton = document.getElementById('wrap-btn');
     this.toast = document.getElementById('toast');
     this.toastTimer = null;
+  }
