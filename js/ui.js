@@ -3,3 +3,4 @@ class UI {
   constructor() {
     this.score = document.getElementById('score');
     this.highScore = document.getElementById('high-score');
+    this.level = document.getElementById('level');
