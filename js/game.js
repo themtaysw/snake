@@ -36,3 +36,4 @@ class Game {
     this.speed = CONFIG.START_SPEED;
     this.slowUntil = 0;
     this.obstacles = this.buildObstacles(this.level);
+    this.food.ensureNormal(this.isBlocked);
