@@ -142,3 +142,5 @@ class Renderer {
     ctx.globalAlpha = 1;
     this.particles = this.particles.filter((p) => p.life > 0);
   }
+
+  drawSlowOverlay(active) {
