@@ -40,3 +40,4 @@ class Renderer {
     const px = x * CONFIG.CELL_SIZE + inset;
     const py = y * CONFIG.CELL_SIZE + inset;
     ctx.fillStyle = color;
+    ctx.beginPath();
