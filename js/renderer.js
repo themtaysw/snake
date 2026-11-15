@@ -18,3 +18,4 @@ class Renderer {
   }
 
   clear() {
+    const { ctx } = this;
