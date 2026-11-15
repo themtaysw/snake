@@ -54,3 +54,4 @@ class Game {
     if (level >= 5) {
       for (let i = 1; i < 4; i++) {
         cells.push({ x: i, y: mid }, { x: n - 1 - i, y: mid });
+      }
