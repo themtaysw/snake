@@ -30,3 +30,4 @@ class InputHandler {
         this.game.togglePause();
       } else if (key === 'Enter') {
         event.preventDefault();
+        this.game.primaryAction();
