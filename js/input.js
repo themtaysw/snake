@@ -62,3 +62,5 @@ class InputHandler {
       }
     }, { passive: true });
   }
+
+  bindButtons() {
