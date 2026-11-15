@@ -58,3 +58,5 @@ class Game {
     }
     return cells;
   }
+
+  isObstacle(cell) {
