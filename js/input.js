@@ -9,3 +9,4 @@ class InputHandler {
   }
 
   bindKeyboard() {
+    const keyMap = {
