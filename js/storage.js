@@ -27,3 +27,4 @@ const SaveData = {
     } catch (error) {
       // Storage might be full or disabled, the game still works
     }
+  },
