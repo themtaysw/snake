@@ -34,3 +34,4 @@ class InputHandler {
       } else if (key === 'r') {
         this.game.restart();
       } else if (key === 'm') {
+        this.game.toggleMute();
