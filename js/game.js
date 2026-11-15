@@ -21,3 +21,4 @@ class Game {
     this.accumulator = 0;
     this.pausedAt = 0;
     this.isBlocked = (cell) => this.snake.occupies(cell) || this.isObstacle(cell);
+    this.loop = this.loop.bind(this);
