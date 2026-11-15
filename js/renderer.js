@@ -50,3 +50,5 @@ class Renderer {
       this.roundedCell(cell.x, cell.y, 1, 4, CONFIG.COLORS.obstacle);
     });
   }
+
+  drawSnake(snake) {
