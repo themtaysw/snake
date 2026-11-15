@@ -40,3 +40,5 @@ class InputHandler {
       }
     });
   }
+
+  bindTouch() {
