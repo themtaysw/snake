@@ -27,3 +27,4 @@ class Game {
   }
 
   reset() {
+    const mid = Math.floor(CONFIG.GRID_SIZE / 2);
