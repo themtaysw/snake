@@ -41,3 +41,5 @@ class Game {
     this.updateUI();
     this.ui.showOverlay('Snake', 'Press Enter or tap Start', 'Start');
   }
+
+  buildObstacles(level) {
