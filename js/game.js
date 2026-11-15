@@ -25,3 +25,5 @@ class Game {
     this.reset();
     requestAnimationFrame(this.loop);
   }
+
+  reset() {
