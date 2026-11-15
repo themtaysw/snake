@@ -104,3 +104,4 @@ class Renderer {
       ctx.arc(item.x * c + c / 2, item.y * c + c / 2, c * 0.36 * pulse, 0, Math.PI * 2);
       ctx.fill();
       ctx.shadowBlur = 0;
+    });
