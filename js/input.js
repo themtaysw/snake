@@ -69,3 +69,4 @@ class InputHandler {
         event.preventDefault();
         this.game.handleDirection(DIRECTIONS[button.dataset.dir]);
       });
+    });
