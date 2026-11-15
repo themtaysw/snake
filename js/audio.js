@@ -6,3 +6,4 @@ class AudioManager {
   }
 
   ensureContext() {
+    if (!this.context) {
