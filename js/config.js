@@ -24,3 +24,4 @@ const CONFIG = {
     snakeTail: '#2a8a4c',
     eyes: '#0f1420',
     food: '#ff5d73',
+    bonus: '#ffd166',
