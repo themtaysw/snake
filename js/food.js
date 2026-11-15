@@ -21,3 +21,4 @@ class FoodManager {
       if (!isBlocked(cell) && !this.at(cell)) return cell;
     }
     return null;
+  }
