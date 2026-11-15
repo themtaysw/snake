@@ -34,3 +34,4 @@ class AudioManager {
     gain.gain.exponentialRampToValueAtTime(0.0001, ctx.currentTime + duration);
     oscillator.connect(gain);
     gain.connect(ctx.destination);
+    oscillator.start();
