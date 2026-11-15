@@ -52,3 +52,4 @@ const Utils = {
   formatScore(score) {
     return String(score).padStart(5, '0');
   },
+};
