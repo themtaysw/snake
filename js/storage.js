@@ -17,3 +17,4 @@ const SaveData = {
       const data = raw ? JSON.parse(raw) : {};
       return { ...SaveData.defaults(), ...data };
     } catch (error) {
+      return SaveData.defaults();
