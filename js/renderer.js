@@ -156,3 +156,4 @@ class Renderer {
     if (this.shake > 0.1) {
       const dx = (Math.random() - 0.5) * this.shake;
       const dy = (Math.random() - 0.5) * this.shake;
+      ctx.translate(dx, dy);
