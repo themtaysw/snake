@@ -81,3 +81,5 @@ class Renderer {
       ctx.fill();
     });
   }
+
+  foodColor(type) {
