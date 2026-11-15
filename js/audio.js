@@ -30,3 +30,4 @@ class AudioManager {
     const gain = ctx.createGain();
     oscillator.type = type;
     oscillator.frequency.setValueAtTime(frequency, ctx.currentTime);
+    gain.gain.setValueAtTime(volume, ctx.currentTime);
