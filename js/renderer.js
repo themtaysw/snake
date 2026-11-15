@@ -90,3 +90,4 @@ class Renderer {
 
   drawFood(food, now) {
     const { ctx } = this;
+    const c = CONFIG.CELL_SIZE;
