@@ -35,3 +35,4 @@ class Snake {
   }
 
   nextHead(gridSize, wrap) {
+    if (this.queue.length) {
