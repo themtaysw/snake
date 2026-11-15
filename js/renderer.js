@@ -134,3 +134,4 @@ class Renderer {
       p.y += p.vy;
       p.vx *= 0.94;
       p.vy *= 0.94;
+      p.life -= 0.03;
