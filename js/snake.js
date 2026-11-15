@@ -69,3 +69,4 @@ class Snake {
     const limit = this.growth > 0 ? this.body.length : this.body.length - 1;
     for (let i = 0; i < limit; i++) {
       if (Utils.samePosition(this.body[i], newHead)) return true;
+    }
