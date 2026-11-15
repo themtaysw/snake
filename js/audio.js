@@ -3,3 +3,4 @@ class AudioManager {
   constructor() {
     this.context = null;
     this.muted = false;
+  }
