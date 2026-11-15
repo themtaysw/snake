@@ -47,3 +47,4 @@ class Game {
     const mid = Math.floor(n / 2);
     const cells = [];
     for (let i = 4; i < 9; i++) {
+      if (level >= 2) cells.push({ x: i, y: 4 }, { x: n - 1 - i, y: n - 5 });
