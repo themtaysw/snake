@@ -14,3 +14,5 @@ class Snake {
     this.growth = 0;
     this.alive = true;
   }
+
+  get head() {
