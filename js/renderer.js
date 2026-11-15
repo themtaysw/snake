@@ -99,3 +99,4 @@ class Renderer {
       const color = this.foodColor(item.type);
       ctx.fillStyle = color;
       ctx.shadowColor = color;
+      ctx.shadowBlur = 12;
