@@ -58,3 +58,4 @@ class Snake {
 
   grow(amount = 1) {
     this.growth += amount;
+  }
