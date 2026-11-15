@@ -30,3 +30,4 @@ class UI {
     this.overlayTitle.textContent = title;
     this.overlayText.textContent = text;
     this.startButton.textContent = buttonLabel;
+    this.overlay.classList.remove('hidden');
