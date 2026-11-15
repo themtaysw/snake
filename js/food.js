@@ -26,3 +26,4 @@ class FoodManager {
   spawn(type, isBlocked) {
     const cell = this.findFreeCell(isBlocked);
     if (!cell) return null;
+    const item = {
