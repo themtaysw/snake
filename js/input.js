@@ -78,3 +78,4 @@ class InputHandler {
     };
     Object.entries(actions).forEach(([id, action]) => {
       document.getElementById(id).addEventListener('click', (event) => {
+        // Drop focus so Space / Enter do not trigger the button again
