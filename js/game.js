@@ -57,3 +57,4 @@ class Game {
       }
     }
     return cells;
+  }
