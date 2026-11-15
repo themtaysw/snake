@@ -42,3 +42,4 @@ class Renderer {
     ctx.fillStyle = color;
     ctx.beginPath();
     ctx.roundRect(px, py, size, size, radius);
+    ctx.fill();
