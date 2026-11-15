@@ -74,3 +74,4 @@ class Snake {
   }
 
   isOutside(cell, gridSize) {
+    return cell.x < 0 || cell.y < 0 || cell.x >= gridSize || cell.y >= gridSize;
