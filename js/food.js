@@ -20,3 +20,4 @@ class FoodManager {
       const cell = Utils.randomCell(this.gridSize);
       if (!isBlocked(cell) && !this.at(cell)) return cell;
     }
+    return null;
