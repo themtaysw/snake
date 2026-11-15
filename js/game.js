@@ -50,3 +50,4 @@ class Game {
       if (level >= 2) cells.push({ x: i, y: 4 }, { x: n - 1 - i, y: n - 5 });
       if (level >= 3) cells.push({ x: n - 5, y: i }, { x: 4, y: n - 1 - i });
       if (level >= 4) cells.push({ x: mid, y: i - 2 }, { x: mid, y: n - 1 - i + 2 });
+    }
