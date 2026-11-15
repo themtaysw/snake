@@ -69,3 +69,4 @@ class Renderer {
     const c = CONFIG.CELL_SIZE;
     const cx = head.x * c + c / 2 + direction.x * c * 0.18;
     const cy = head.y * c + c / 2 + direction.y * c * 0.18;
+    const side = c * 0.2;
