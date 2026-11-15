@@ -31,3 +31,4 @@ class InputHandler {
       } else if (key === 'Enter') {
         event.preventDefault();
         this.game.primaryAction();
+      } else if (key === 'r') {
