@@ -40,3 +40,5 @@ class FoodManager {
     const hasNormal = this.items.some((item) => item.type === FOOD_TYPES.NORMAL);
     if (!hasNormal) this.spawn(FOOD_TYPES.NORMAL, isBlocked);
   }
+
+  maybeSpawnSpecial(isBlocked) {
