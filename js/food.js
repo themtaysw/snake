@@ -73,3 +73,4 @@ class FoodManager {
   }
 
   remainingLife(item, now) {
+    if (item.lifetime === Infinity) return 1;
