@@ -55,3 +55,4 @@ class InputHandler {
       this.touchStart = null;
       if (Math.max(Math.abs(dx), Math.abs(dy)) < 24) {
         this.game.togglePause();
+      } else if (Math.abs(dx) > Math.abs(dy)) {
