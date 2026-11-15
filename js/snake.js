@@ -65,3 +65,4 @@ class Snake {
   }
 
   willCollideWithSelf(newHead) {
+    // The tail moves out of the way this tick unless the snake is growing
