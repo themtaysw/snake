@@ -130,3 +130,4 @@ class Renderer {
   drawParticles() {
     const { ctx } = this;
     this.particles.forEach((p) => {
+      p.x += p.vx;
