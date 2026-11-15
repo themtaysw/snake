@@ -10,3 +10,5 @@ const Utils = {
       y: Utils.randomInt(0, gridSize - 1),
     };
   },
+
+  samePosition(a, b) {
