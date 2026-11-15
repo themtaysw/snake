@@ -28,3 +28,4 @@ class FoodManager {
     if (!cell) return null;
     const item = {
       ...cell,
+      type,
