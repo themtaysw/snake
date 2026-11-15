@@ -27,3 +27,4 @@ class Snake {
     const last = this.queue.length
       ? this.queue[this.queue.length - 1]
       : this.direction;
+    if (Utils.samePosition(last, newDirection)) return;
