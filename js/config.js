@@ -38,3 +38,4 @@ const DIRECTIONS = {
 };
 
 Object.freeze(CONFIG);
+Object.freeze(DIRECTIONS);
