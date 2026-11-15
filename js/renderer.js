@@ -9,3 +9,4 @@ class Renderer {
   }
 
   resize() {
+    const size = CONFIG.GRID_SIZE * CONFIG.CELL_SIZE;
