@@ -6,3 +6,4 @@ const FOOD_TYPES = {
 };
 
 class FoodManager {
+  constructor(gridSize) {
