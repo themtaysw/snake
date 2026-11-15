@@ -77,3 +77,4 @@ class InputHandler {
       'wrap-btn': () => this.game.toggleWrap(),
     };
     Object.entries(actions).forEach(([id, action]) => {
+      document.getElementById(id).addEventListener('click', (event) => {
