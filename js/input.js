@@ -82,3 +82,4 @@ class InputHandler {
         event.currentTarget.blur();
         action();
       });
+    });
