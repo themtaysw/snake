@@ -48,3 +48,4 @@ class FoodManager {
     } else if (roll < CONFIG.SLOW_CHANCE + CONFIG.BONUS_CHANCE) {
       this.spawn(FOOD_TYPES.BONUS, isBlocked);
     }
+  }
