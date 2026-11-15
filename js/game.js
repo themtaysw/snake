@@ -40,3 +40,4 @@ class Game {
     this.state = STATES.READY;
     this.updateUI();
     this.ui.showOverlay('Snake', 'Press Enter or tap Start', 'Start');
+  }
