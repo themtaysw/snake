@@ -44,3 +44,5 @@ class Renderer {
     ctx.roundRect(px, py, size, size, radius);
     ctx.fill();
   }
+
+  drawObstacles(obstacles) {
