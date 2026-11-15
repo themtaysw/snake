@@ -46,3 +46,4 @@ class Renderer {
   }
 
   drawObstacles(obstacles) {
+    obstacles.forEach((cell) => {
