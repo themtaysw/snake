@@ -4,3 +4,5 @@ const FOOD_TYPES = {
   BONUS: 'bonus',
   SLOW: 'slow',
 };
+
+class FoodManager {
