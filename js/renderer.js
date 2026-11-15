@@ -64,3 +64,4 @@ class Renderer {
   }
 
   drawEyes(snake) {
+    const { ctx } = this;
