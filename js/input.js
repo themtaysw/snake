@@ -49,3 +49,4 @@ class InputHandler {
     }, { passive: true });
     board.addEventListener('touchend', (event) => {
       if (!this.touchStart) return;
+      const touch = event.changedTouches[0];
