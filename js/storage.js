@@ -12,3 +12,4 @@ const SaveData = {
   },
 
   load() {
+    try {
