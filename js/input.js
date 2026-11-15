@@ -19,3 +19,4 @@ class InputHandler {
       a: DIRECTIONS.LEFT,
       d: DIRECTIONS.RIGHT,
     };
+    window.addEventListener('keydown', (event) => {
