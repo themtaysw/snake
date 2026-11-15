@@ -17,3 +17,4 @@ class Game {
     this.audio.muted = this.save.muted;
     this.wrapWalls = this.save.wrapWalls;
     this.obstacles = [];
+    this.lastTime = 0;
