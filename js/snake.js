@@ -17,3 +17,4 @@ class Snake {
 
   get head() {
     return this.body[0];
+  }
