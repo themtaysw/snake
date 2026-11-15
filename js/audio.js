@@ -62,3 +62,4 @@ class AudioManager {
 
   gameOver() {
     this.melody([440, 370, 311, 220], 150, 0.2, 'sawtooth', 0.06);
+  }
