@@ -6,3 +6,4 @@ class Renderer {
     this.particles = [];
     this.shake = 0;
     this.resize();
+  }
