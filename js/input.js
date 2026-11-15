@@ -28,3 +28,4 @@ class InputHandler {
       } else if (key === ' ' || key === 'p' || key === 'Escape') {
         event.preventDefault();
         this.game.togglePause();
+      } else if (key === 'Enter') {
