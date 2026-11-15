@@ -4,3 +4,4 @@ const STATES = {
   PLAYING: 'playing',
   PAUSED: 'paused',
   OVER: 'over',
+};
