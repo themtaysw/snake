@@ -14,3 +14,5 @@ class FoodManager {
   reset() {
     this.items = [];
   }
+
+  findFreeCell(isBlocked) {
