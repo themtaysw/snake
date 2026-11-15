@@ -67,3 +67,4 @@ class InputHandler {
     document.querySelectorAll('[data-dir]').forEach((button) => {
       button.addEventListener('pointerdown', (event) => {
         event.preventDefault();
+        this.game.handleDirection(DIRECTIONS[button.dataset.dir]);
