@@ -15,3 +15,4 @@ class AudioManager {
       this.context.resume();
     }
     return this.context;
+  }
