@@ -19,3 +19,4 @@ const SaveData = {
     } catch (error) {
       return SaveData.defaults();
     }
+  },
