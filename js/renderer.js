@@ -137,3 +137,4 @@ class Renderer {
       p.life -= 0.03;
       ctx.globalAlpha = Math.max(p.life, 0);
       ctx.fillStyle = p.color;
+      ctx.fillRect(p.x - 2, p.y - 2, 4, 4);
