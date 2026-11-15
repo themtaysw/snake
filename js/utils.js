@@ -6,3 +6,4 @@ const Utils = {
 
   randomCell(gridSize) {
     return {
+      x: Utils.randomInt(0, gridSize - 1),
