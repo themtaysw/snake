@@ -9,3 +9,4 @@ class FoodManager {
   constructor(gridSize) {
     this.gridSize = gridSize;
     this.items = [];
+  }
