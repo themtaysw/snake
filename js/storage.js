@@ -3,3 +3,4 @@ const SaveData = {
   KEY: 'snake.save.v1',
 
   defaults() {
+    return {
