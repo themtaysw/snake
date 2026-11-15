@@ -150,3 +150,4 @@ class Renderer {
   }
 
   render(state, now) {
+    const { ctx } = this;
