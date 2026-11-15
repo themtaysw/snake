@@ -68,3 +68,4 @@ class InputHandler {
       button.addEventListener('pointerdown', (event) => {
         event.preventDefault();
         this.game.handleDirection(DIRECTIONS[button.dataset.dir]);
+      });
