@@ -55,3 +55,4 @@ class FoodManager {
   }
 
   remove(item) {
+    this.items = this.items.filter((other) => other !== item);
