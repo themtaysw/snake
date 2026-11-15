@@ -46,3 +46,4 @@ class Game {
     const n = CONFIG.GRID_SIZE;
     const mid = Math.floor(n / 2);
     const cells = [];
+    for (let i = 4; i < 9; i++) {
