@@ -29,3 +29,4 @@ class UI {
   showOverlay(title, text, buttonLabel) {
     this.overlayTitle.textContent = title;
     this.overlayText.textContent = text;
+    this.startButton.textContent = buttonLabel;
