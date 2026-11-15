@@ -11,3 +11,4 @@ class Renderer {
   resize() {
     const size = CONFIG.GRID_SIZE * CONFIG.CELL_SIZE;
     const ratio = window.devicePixelRatio || 1;
+    this.canvas.width = size * ratio;
