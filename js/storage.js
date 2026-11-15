@@ -15,3 +15,4 @@ const SaveData = {
     try {
       const raw = localStorage.getItem(SaveData.KEY);
       const data = raw ? JSON.parse(raw) : {};
+      return { ...SaveData.defaults(), ...data };
