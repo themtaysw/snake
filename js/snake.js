@@ -33,3 +33,5 @@ class Snake {
       this.queue.push(newDirection);
     }
   }
+
+  nextHead(gridSize, wrap) {
