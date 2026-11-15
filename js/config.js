@@ -18,3 +18,4 @@ const CONFIG = {
   PARTICLE_COUNT: 14,
   COLORS: {
     background: '#0f1420',
+    grid: '#161d2d',
