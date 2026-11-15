@@ -22,3 +22,4 @@ class UI {
     this.level.textContent = data.level;
     this.length.textContent = data.length;
     this.pauseButton.textContent = data.paused ? 'Resume' : 'Pause';
+    this.muteButton.textContent = data.muted ? 'Sound: off' : 'Sound: on';
