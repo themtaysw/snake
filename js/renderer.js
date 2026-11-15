@@ -7,3 +7,5 @@ class Renderer {
     this.shake = 0;
     this.resize();
   }
+
+  resize() {
