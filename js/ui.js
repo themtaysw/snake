@@ -8,3 +8,4 @@ class UI {
     this.overlay = document.getElementById('overlay');
     this.overlayTitle = document.getElementById('overlay-title');
     this.overlayText = document.getElementById('overlay-text');
+    this.startButton = document.getElementById('start-btn');
