@@ -61,3 +61,4 @@ class Snake {
   }
 
   occupies(cell) {
+    return this.body.some((part) => Utils.samePosition(part, cell));
