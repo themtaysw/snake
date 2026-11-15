@@ -83,3 +83,4 @@ class Renderer {
   }
 
   foodColor(type) {
+    if (type === FOOD_TYPES.BONUS) return CONFIG.COLORS.bonus;
