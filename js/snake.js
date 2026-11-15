@@ -7,3 +7,4 @@ class Snake {
   reset(startX, startY, length) {
     this.body = [];
     for (let i = 0; i < length; i++) {
+      this.body.push({ x: startX - i, y: startY });
