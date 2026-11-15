@@ -8,3 +8,4 @@ const SaveData = {
       bestLevel: 1,
       muted: false,
       wrapWalls: CONFIG.WRAP_WALLS,
+    };
