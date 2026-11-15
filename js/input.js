@@ -66,3 +66,4 @@ class InputHandler {
   bindButtons() {
     document.querySelectorAll('[data-dir]').forEach((button) => {
       button.addEventListener('pointerdown', (event) => {
+        event.preventDefault();
