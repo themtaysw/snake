@@ -22,3 +22,4 @@ const CONFIG = {
     snakeHead: '#7cf29a',
     snakeBody: '#3fbf6a',
     snakeTail: '#2a8a4c',
+    eyes: '#0f1420',
