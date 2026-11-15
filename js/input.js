@@ -58,3 +58,4 @@ class InputHandler {
       } else if (Math.abs(dx) > Math.abs(dy)) {
         this.game.handleDirection(dx > 0 ? DIRECTIONS.RIGHT : DIRECTIONS.LEFT);
       } else {
+        this.game.handleDirection(dy > 0 ? DIRECTIONS.DOWN : DIRECTIONS.UP);
