@@ -18,3 +18,4 @@ class InputHandler {
       s: DIRECTIONS.DOWN,
       a: DIRECTIONS.LEFT,
       d: DIRECTIONS.RIGHT,
+    };
