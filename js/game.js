@@ -37,3 +37,4 @@ class Game {
     this.slowUntil = 0;
     this.obstacles = this.buildObstacles(this.level);
     this.food.ensureNormal(this.isBlocked);
+    this.state = STATES.READY;
