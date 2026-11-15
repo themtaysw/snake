@@ -3,3 +3,4 @@ const FOOD_TYPES = {
   NORMAL: 'normal',
   BONUS: 'bonus',
   SLOW: 'slow',
+};
