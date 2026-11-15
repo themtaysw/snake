@@ -18,3 +18,4 @@ class FoodManager {
   findFreeCell(isBlocked) {
     for (let attempt = 0; attempt < 500; attempt++) {
       const cell = Utils.randomCell(this.gridSize);
+      if (!isBlocked(cell) && !this.at(cell)) return cell;
