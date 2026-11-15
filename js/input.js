@@ -76,3 +76,4 @@ class InputHandler {
       'mute-btn': () => this.game.toggleMute(),
       'wrap-btn': () => this.game.toggleWrap(),
     };
+    Object.entries(actions).forEach(([id, action]) => {
