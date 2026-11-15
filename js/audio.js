@@ -40,3 +40,4 @@ class AudioManager {
 
   melody(notes, gap, duration, type, volume) {
     notes.forEach((frequency, index) => {
+      setTimeout(() => this.tone(frequency, duration, type, volume), index * gap);
