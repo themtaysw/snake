@@ -10,3 +10,4 @@ class Snake {
       this.body.push({ x: startX - i, y: startY });
     }
     this.direction = DIRECTIONS.RIGHT;
+    this.queue = [];
