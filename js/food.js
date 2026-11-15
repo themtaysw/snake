@@ -34,3 +34,4 @@ class FoodManager {
     };
     this.items.push(item);
     return item;
+  }
