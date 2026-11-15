@@ -44,3 +44,4 @@ class Game {
 
   buildObstacles(level) {
     const n = CONFIG.GRID_SIZE;
+    const mid = Math.floor(n / 2);
