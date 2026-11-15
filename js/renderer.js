@@ -164,3 +164,4 @@ class Renderer {
     this.drawFood(state.food, now);
     this.drawSnake(state.snake);
     this.drawParticles();
+    this.drawSlowOverlay(state.slowActive);
