@@ -167,3 +167,4 @@ class Renderer {
     this.drawSlowOverlay(state.slowActive);
     ctx.restore();
   }
+}
