@@ -71,3 +71,4 @@ class Snake {
       if (Utils.samePosition(this.body[i], newHead)) return true;
     }
     return false;
+  }
