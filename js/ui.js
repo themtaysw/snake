@@ -11,3 +11,4 @@ class UI {
     this.startButton = document.getElementById('start-btn');
     this.pauseButton = document.getElementById('pause-btn');
     this.muteButton = document.getElementById('mute-btn');
+    this.wrapButton = document.getElementById('wrap-btn');
