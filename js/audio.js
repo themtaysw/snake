@@ -26,3 +26,4 @@ class AudioManager {
     if (this.muted) return;
     const ctx = this.ensureContext();
     if (!ctx) return;
+    const oscillator = ctx.createOscillator();
