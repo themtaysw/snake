@@ -32,3 +32,4 @@ class InputHandler {
         event.preventDefault();
         this.game.primaryAction();
       } else if (key === 'r') {
+        this.game.restart();
