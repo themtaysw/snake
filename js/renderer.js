@@ -28,3 +28,4 @@ class Renderer {
       const p = i * CONFIG.CELL_SIZE + 0.5;
       ctx.moveTo(p, 0);
       ctx.lineTo(p, this.size);
+      ctx.moveTo(0, p);
