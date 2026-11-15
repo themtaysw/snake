@@ -33,3 +33,5 @@ class Renderer {
     }
     ctx.stroke();
   }
+
+  roundedCell(x, y, inset, radius, color) {
