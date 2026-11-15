@@ -21,3 +21,4 @@ const CONFIG = {
     grid: '#161d2d',
     snakeHead: '#7cf29a',
     snakeBody: '#3fbf6a',
+    snakeTail: '#2a8a4c',
