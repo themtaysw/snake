@@ -29,3 +29,4 @@ class FoodManager {
     const item = {
       ...cell,
       type,
+      createdAt: performance.now(),
