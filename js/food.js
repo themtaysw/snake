@@ -43,3 +43,4 @@ class FoodManager {
 
   maybeSpawnSpecial(isBlocked) {
     const roll = Math.random();
+    if (roll < CONFIG.SLOW_CHANCE) {
