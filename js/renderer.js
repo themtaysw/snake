@@ -100,3 +100,4 @@ class Renderer {
       ctx.fillStyle = color;
       ctx.shadowColor = color;
       ctx.shadowBlur = 12;
+      ctx.beginPath();
