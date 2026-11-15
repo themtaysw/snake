@@ -33,3 +33,4 @@ const SaveData = {
     const next = { ...SaveData.load(), ...changes };
     SaveData.save(next);
     return next;
+  },
