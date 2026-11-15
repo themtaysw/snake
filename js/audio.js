@@ -39,3 +39,4 @@ class AudioManager {
   }
 
   melody(notes, gap, duration, type, volume) {
+    notes.forEach((frequency, index) => {
