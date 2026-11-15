@@ -41,3 +41,4 @@ const Utils = {
   },
 
   mixColors(hexA, hexB, t) {
+    const a = Utils.hexToRgb(hexA);
