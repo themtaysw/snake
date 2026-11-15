@@ -118,3 +118,4 @@ class Renderer {
         vx: Math.cos(angle) * speed,
         vy: Math.sin(angle) * speed,
         life: 1,
+        color,
