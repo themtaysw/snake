@@ -55,3 +55,5 @@ class AudioManager {
   slow() {
     this.melody([440, 330], 150, 0.3, 'sine', 0.1);
   }
+
+  levelUp() {
