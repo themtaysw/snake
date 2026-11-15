@@ -24,3 +24,4 @@ class Game {
     this.loop = this.loop.bind(this);
     this.reset();
     requestAnimationFrame(this.loop);
+  }
