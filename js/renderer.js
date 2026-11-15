@@ -98,3 +98,4 @@ class Renderer {
       const pulse = 1 + Math.sin(now / 180) * 0.08;
       const color = this.foodColor(item.type);
       ctx.fillStyle = color;
+      ctx.shadowColor = color;
