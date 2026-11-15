@@ -31,3 +31,4 @@ const CONFIG = {
 };
 
 const DIRECTIONS = {
+  UP: { x: 0, y: -1 },
