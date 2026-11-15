@@ -148,3 +148,5 @@ class Renderer {
     this.ctx.fillStyle = 'rgba(110, 198, 255, 0.08)';
     this.ctx.fillRect(0, 0, this.size, this.size);
   }
+
+  render(state, now) {
