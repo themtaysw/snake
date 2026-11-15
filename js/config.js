@@ -27,3 +27,4 @@ const CONFIG = {
     bonus: '#ffd166',
     slow: '#6ec6ff',
     obstacle: '#4a5470',
+  },
