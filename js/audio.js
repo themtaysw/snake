@@ -14,3 +14,4 @@ class AudioManager {
     if (this.context.state === 'suspended') {
       this.context.resume();
     }
+    return this.context;
