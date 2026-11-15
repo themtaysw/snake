@@ -7,3 +7,4 @@ const STATES = {
 };
 
 class Game {
+  constructor(canvas, ui) {
