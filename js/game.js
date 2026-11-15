@@ -56,3 +56,4 @@ class Game {
         cells.push({ x: i, y: mid }, { x: n - 1 - i, y: mid });
       }
     }
+    return cells;
