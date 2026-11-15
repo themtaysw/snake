@@ -4,3 +4,4 @@ class UI {
     this.score = document.getElementById('score');
     this.highScore = document.getElementById('high-score');
     this.level = document.getElementById('level');
+    this.length = document.getElementById('length');
