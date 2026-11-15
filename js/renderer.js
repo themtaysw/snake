@@ -25,3 +25,4 @@ class Renderer {
     ctx.lineWidth = 1;
     ctx.beginPath();
     for (let i = 1; i < CONFIG.GRID_SIZE; i++) {
+      const p = i * CONFIG.CELL_SIZE + 0.5;
