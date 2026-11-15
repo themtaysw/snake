@@ -32,3 +32,4 @@ class Renderer {
       ctx.lineTo(this.size, p);
     }
     ctx.stroke();
+  }
