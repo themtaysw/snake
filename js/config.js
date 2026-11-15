@@ -17,3 +17,4 @@ const CONFIG = {
   WRAP_WALLS: false,
   PARTICLE_COUNT: 14,
   COLORS: {
+    background: '#0f1420',
