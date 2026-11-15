@@ -25,3 +25,5 @@ class UI {
     this.muteButton.textContent = data.muted ? 'Sound: off' : 'Sound: on';
     this.wrapButton.textContent = data.wrapWalls ? 'Walls: wrap' : 'Walls: solid';
   }
+
+  showOverlay(title, text, buttonLabel) {
