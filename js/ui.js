@@ -24,3 +24,4 @@ class UI {
     this.pauseButton.textContent = data.paused ? 'Resume' : 'Pause';
     this.muteButton.textContent = data.muted ? 'Sound: off' : 'Sound: on';
     this.wrapButton.textContent = data.wrapWalls ? 'Walls: wrap' : 'Walls: solid';
+  }
