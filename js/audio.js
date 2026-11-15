@@ -25,3 +25,4 @@ class AudioManager {
   tone(frequency, duration, type = 'square', volume = 0.08) {
     if (this.muted) return;
     const ctx = this.ensureContext();
+    if (!ctx) return;
