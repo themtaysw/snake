@@ -46,3 +46,4 @@ class AudioManager {
 
   eat() {
     this.melody([660, 880], 60, 0.08, 'square');
+  }
