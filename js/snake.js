@@ -31,3 +31,4 @@ class Snake {
     if (Utils.isOpposite(last, newDirection)) return;
     if (this.queue.length < 3) {
       this.queue.push(newDirection);
+    }
