@@ -135,3 +135,4 @@ class Renderer {
       p.vx *= 0.94;
       p.vy *= 0.94;
       p.life -= 0.03;
+      ctx.globalAlpha = Math.max(p.life, 0);
