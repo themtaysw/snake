@@ -60,3 +60,4 @@ class FoodManager {
 
   removeWhere(predicate) {
     this.items = this.items.filter((item) => !predicate(item));
+  }
