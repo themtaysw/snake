@@ -39,3 +39,5 @@ const Utils = {
       b: value & 255,
     };
   },
+
+  mixColors(hexA, hexB, t) {
