@@ -21,3 +21,4 @@ class InputHandler {
     };
     window.addEventListener('keydown', (event) => {
       if (event.repeat && !keyMap[event.key]) return;
+      const key = event.key.length === 1 ? event.key.toLowerCase() : event.key;
