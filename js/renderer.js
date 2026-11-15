@@ -145,3 +145,4 @@ class Renderer {
 
   drawSlowOverlay(active) {
     if (!active) return;
+    this.ctx.fillStyle = 'rgba(110, 198, 255, 0.08)';
