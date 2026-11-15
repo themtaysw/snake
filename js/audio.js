@@ -10,3 +10,4 @@ class AudioManager {
       const AudioCtx = window.AudioContext || window.webkitAudioContext;
       if (!AudioCtx) return null;
       this.context = new AudioCtx();
+    }
