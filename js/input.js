@@ -70,3 +70,4 @@ class InputHandler {
         this.game.handleDirection(DIRECTIONS[button.dataset.dir]);
       });
     });
+    const actions = {
