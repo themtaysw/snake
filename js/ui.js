@@ -39,3 +39,4 @@ class UI {
 
   flash(message) {
     this.toast.textContent = message;
+    this.toast.classList.add('visible');
