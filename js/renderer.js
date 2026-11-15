@@ -35,3 +35,4 @@ class Renderer {
   }
 
   roundedCell(x, y, inset, radius, color) {
+    const { ctx } = this;
