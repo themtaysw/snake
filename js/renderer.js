@@ -96,3 +96,4 @@ class Renderer {
       const blinking = life < 0.3 && Math.floor(now / 120) % 2 === 0;
       if (blinking) return;
       const pulse = 1 + Math.sin(now / 180) * 0.08;
+      const color = this.foodColor(item.type);
