@@ -48,3 +48,4 @@ class InputHandler {
       this.touchStart = { x: touch.clientX, y: touch.clientY };
     }, { passive: true });
     board.addEventListener('touchend', (event) => {
+      if (!this.touchStart) return;
