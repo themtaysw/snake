@@ -159,3 +159,4 @@ class Renderer {
       ctx.translate(dx, dy);
       this.shake *= 0.9;
     }
+    this.clear();
