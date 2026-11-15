@@ -61,3 +61,4 @@ class Game {
 
   isObstacle(cell) {
     return this.obstacles.some((obstacle) => Utils.samePosition(obstacle, cell));
+  }
