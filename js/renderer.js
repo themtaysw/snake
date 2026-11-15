@@ -52,3 +52,4 @@ class Renderer {
   }
 
   drawSnake(snake) {
+    const { body } = snake;
