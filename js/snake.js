@@ -46,3 +46,5 @@ class Snake {
     }
     return { x, y };
   }
+
+  move(newHead) {
