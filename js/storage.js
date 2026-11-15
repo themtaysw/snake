@@ -30,3 +30,4 @@ const SaveData = {
   },
 
   update(changes) {
+    const next = { ...SaveData.load(), ...changes };
