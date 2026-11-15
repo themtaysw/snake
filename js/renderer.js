@@ -75,3 +75,4 @@ class Renderer {
       { x: cx + direction.y * side, y: cy - direction.x * side },
     ];
     ctx.fillStyle = CONFIG.COLORS.eyes;
+    eyes.forEach((eye) => {
