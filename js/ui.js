@@ -34,3 +34,4 @@ class UI {
   }
 
   hideOverlay() {
+    this.overlay.classList.add('hidden');
