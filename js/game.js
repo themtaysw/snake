@@ -31,3 +31,4 @@ class Game {
     this.snake.reset(mid, mid, CONFIG.START_LENGTH);
     this.food.reset();
     this.score = 0;
+    this.level = 1;
