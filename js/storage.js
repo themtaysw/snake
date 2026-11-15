@@ -7,3 +7,4 @@ const SaveData = {
       highScore: 0,
       bestLevel: 1,
       muted: false,
+      wrapWalls: CONFIG.WRAP_WALLS,
