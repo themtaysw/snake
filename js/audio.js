@@ -19,3 +19,4 @@ class AudioManager {
 
   toggleMute() {
     this.muted = !this.muted;
+    return this.muted;
