@@ -75,3 +75,4 @@ class InputHandler {
       'pause-btn': () => this.game.togglePause(),
       'mute-btn': () => this.game.toggleMute(),
       'wrap-btn': () => this.game.toggleWrap(),
+    };
