@@ -20,3 +20,4 @@ class UI {
     this.score.textContent = Utils.formatScore(data.score);
     this.highScore.textContent = Utils.formatScore(data.highScore);
     this.level.textContent = data.level;
+    this.length.textContent = data.length;
