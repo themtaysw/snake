@@ -42,3 +42,4 @@ class FoodManager {
   }
 
   maybeSpawnSpecial(isBlocked) {
+    const roll = Math.random();
