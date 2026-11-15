@@ -26,3 +26,4 @@ const CONFIG = {
     food: '#ff5d73',
     bonus: '#ffd166',
     slow: '#6ec6ff',
+    obstacle: '#4a5470',
