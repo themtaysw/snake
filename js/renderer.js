@@ -29,3 +29,4 @@ class Renderer {
       ctx.moveTo(p, 0);
       ctx.lineTo(p, this.size);
       ctx.moveTo(0, p);
+      ctx.lineTo(this.size, p);
