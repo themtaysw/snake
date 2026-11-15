@@ -67,3 +67,4 @@ class Snake {
   willCollideWithSelf(newHead) {
     // The tail moves out of the way this tick unless the snake is growing
     const limit = this.growth > 0 ? this.body.length : this.body.length - 1;
+    for (let i = 0; i < limit; i++) {
