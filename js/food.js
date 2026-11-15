@@ -37,3 +37,4 @@ class FoodManager {
   }
 
   ensureNormal(isBlocked) {
+    const hasNormal = this.items.some((item) => item.type === FOOD_TYPES.NORMAL);
