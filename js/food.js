@@ -67,3 +67,4 @@ class FoodManager {
   }
 
   shiftTime(delta) {
+    this.items.forEach((item) => {
