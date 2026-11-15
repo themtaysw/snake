@@ -37,3 +37,4 @@ class InputHandler {
         this.game.toggleMute();
       } else if (key === 'g') {
         this.game.toggleWrap();
+      }
